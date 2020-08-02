@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000066 ;
+	
+}
+
+p.first-para {
+	padding-top: 20px;
+	color: white;
+  	font-family: 'Epilogue', sans-serif;
+  	font-size:  1.25em;
+}
+
+h1 {
+	color: white;
+  	margin-top: 50px;
+  	margin-right: 50px;
+  	margin-left: 30px;
+  	letter-spacing: 30px;
+  	font-family: 'Oswald', sans-serif;
+  
+}
+hr.style1{
+	border-top: 1px solid #F4D03F;
+}
+
+p{
+	padding: 15px;
+	margin-top: 10px;
+  	margin-right: 10px;
+  	margin-left: 10px;
+  	color: white;
+  	
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.carousel-caption h5 {
+font-family: 'Martel', serif;
+font-size:      6em;
+color:          #F7DC6F ;
+text-align: center;
+text-shadow: 2px 2px #ff0000;
+}
+
+.carousel-caption p {
+font-family: 'Gudea', sans-serif;
+font-size:      3em;
+color:          white;
+text-shadow: 2px 2px #17202A;
+}
+
+.carousel img {
+        width:100% !important;
+        min-width:100 !important;
+        height: auto;
+    }
+
+#footer {
+	text-align: center;
+  	padding: 3px;
+  	background-color: #ECF0F1;
+  	color: white;
+}
+
+footer {
+	letter-spacing: 2px;
+}
+
+
+#mainNavbar {
+	font-size: 1.2rem;
+	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+}
+
+#mainNavbar .nav-link {
+	color: #F7DC6F;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #D7D72C;
+}
+
+
+#mainNavbar .navbar-brand {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+
+#headinggroup span {
+	color: #D7D72C;
+
+}
+.navbar.scrolled {
+	background: rgb(113, 28, 147);
+	transition: background 500ms; 
+}
+#headinggroup h1 {
+	font-weight: 100;
+	font-size: 3rem;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+@media (max-width: 1200px) {
+	#headinggroup h1 {
+	font-weight: 100;
+	font-size: 2rem;
+
+}
+

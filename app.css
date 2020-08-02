@@ -1,0 +1,80 @@
+body {
+	background: #000066 ;
+	font-family: font-family: 'Martel', serif;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing:2px;
+}
+.blurb h2 {
+	color: #D7D72C;
+	font-size: 2.5rem;
+	font-family: 'Martel', serif; 
+
+}
+.blurb p {
+	color: #E1F1C2;
+	font-size: 1.125rem;
+	line-height: 2;
+	font-family: 'Gudea', sans-serif;
+}
+
+.content{
+	margin-top: 100px; 
+}
+#mainNavbar {
+	font-size: 1.2rem;
+	font-weight: 100;
+	font-family: 'Oswald', sans-serif;
+}
+
+#mainNavbar .nav-link {
+	color: #F7DC6F;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #F4D03F;
+}
+
+
+#mainNavbar .navbar-brand {
+	color: white;
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif;
+}
+
+#headinggroup span {
+	color: #D7D72C;
+
+}
+.navbar.scrolled {
+	background: rgb(113, 28, 147);
+	transition: background 500ms; 
+}
+#headinggroup h1 {
+	font-weight: 100;
+	font-size: 2.5rem;
+	font-family: 'Oswald', sans-serif;
+
+}
+
+@media (max-width: 1200px) {
+	#headinggroup h1 {
+	font-weight: 100;
+	font-size: 2rem;
+
+}
+
+}
+
+#footer {
+	text-align: center;
+  	padding: 3px;
+  	background-color: #ECF0F1;
+  	color: white;
+}
+
+footer {
+	letter-spacing: 2px;
+}
